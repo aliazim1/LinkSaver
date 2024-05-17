@@ -1,0 +1,102 @@
+:root {
+    --wmu: #F1C500;
+    --font-color: #f8f8f8;
+    --danger-btn: #ff0000;
+    --primary-btn: #00abf0;
+    --danger-btn-hover: #ac0000;
+    --background-color: #081b29;
+    --primary-btn-hover: #0095d0;
+    --box-border-color: #5467858d;
+    --nav-menu-background: #081b29;
+    --background-light-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: var(--font-color);
+    scroll-snap-align: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: var(--background-color);
+}
+
+html {
+    font-size: 62.5%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main-home {
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.url-input {
+    width: 30rem;
+    padding: 10px;
+    height: 3.5rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 1px var(--primary-btn);
+}
+.btn {
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 0.5rem;
+    min-width: fit-content;
+    justify-content: space-between;
+}
+#link-list {
+    width: 90%;
+    padding: 10px;
+    overflow: auto;
+    list-style: none;
+    margin: 1rem auto;
+}
+#links {
+    margin: 0;
+    padding: 0; 
+    text-align: left;
+    margin-top: 1.5rem;
+    white-space: normal;
+    word-wrap: break-word;  
+    border-bottom: solid 1px var(--box-border-color);
+}
+#saveBtn {
+    background-color: var(--primary-btn);
+}
+#tabBtn {
+    margin-top: -1.7rem;
+    background-color: var(--primary-btn);
+}
+
+#tabBtn:hover, #saveBtn:hover {
+    background-color: var(--primary-btn-hover);
+    margin-top: -20rem;
+}
+#deleteBtn, #deleteAllBtn {
+    background-color: var(--danger-btn);
+}
+#deleteBtn:hover, #deleteAllBtn:hover {
+    background-color: var(--danger-btn-hover)
+}
+
