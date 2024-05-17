@@ -13,6 +13,7 @@ Overview:
     Installation:
         Download the Extension:
         Clone or download the repository to your local machine.
+        git clone https://github.com/aliazim1/LinkSaver.git
 
     Load the Extension in Chrome:
         Open Chrome and navigate to chrome://extensions/.
